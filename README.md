@@ -46,8 +46,60 @@ This clearly shows how removing stopwords shifts the focus from grammatical stru
 
 ### [Sentiment Analysis](#sentiment-analysis)
 **File:** `Sentiment_Analysis.ipynb`  
-Classifies text (e.g., product reviews) into positive or negative sentiments using traditional Machine Learning models.  
-**Concepts:** Sentiment classification, bag-of-words, TF-IDF, scikit-learn.
+
+#### Description
+A comprehensive sentiment analysis project that implements and compares multiple approaches to determine the emotional tone (positive, negative, neutral) of text. This notebook serves as a practical guide to both rule-based and machine learning-based sentiment analysis techniques, using movie reviews and product feedback as primary examples.
+
+#### Key Features & Methods
+- **Rule-Based Analysis**: 
+  - **Lexicon-Based**: Uses NLTK's Opinion Lexicon for simple word-counting approach
+  - **VADER**: Specialized rule-based model for social media/text sentiment
+  - **TextBlob**: Simplified text processing and sentiment analysis
+- **Machine Learning Approach**:
+  - **LinearSVC Classifier**: Support Vector Machine with TF-IDF features
+  - **Naive Bayes**: Traditional probabilistic classifier
+  - **Custom Pipeline**: Full ML workflow from preprocessing to evaluation
+- **Multi-Model Comparison**: Evaluates and compares performance across all approaches
+
+#### Concepts & Skills
+- **Sentiment Classification**: Three-class (positive/negative/neutral) text classification
+- **Feature Engineering**: TF-IDF vectorization with n-grams
+- **Model Evaluation**: Accuracy scores and detailed classification reports
+- **Text Preprocessing**: Cleaning, tokenization, stopword removal
+- **Cross-Validation**: Train-test splits with stratification
+- **Multiple NLP Libraries**: NLTK, TextBlob, scikit-learn, VADER
+
+#### Model Performance
+**Evaluation Results:**
+- VADER: Accuracy: 0.67
+- TextBlob: Accuracy: 0.78
+- LinearSVC: Accuracy: 0.44
+
+#### Applications
+- Product review analysis
+- Social media monitoring
+- Customer feedback processing
+- Brand sentiment tracking
+- Comparative study of sentiment analysis techniques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### [Rule & Retrieval-Based Chatbot](#rule--retrieval-based-chatbot)
 **File:** `Rule_and_Retrieval_Based_chatbot.ipynb`  

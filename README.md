@@ -14,7 +14,7 @@ A collection of hands-on fundamental projects in Natural Language Processing tec
 
 ## Projects
 
-### [Text Cleaning & Frequency Counter](#text-cleaning--frequency-counter)
+### Text Cleaning & Frequency Counter
 **File:** `Text_cleaning_frequency_counter.ipynb`  
 #### Description
 This project demonstrates the foundational step of any Natural Language Processing (NLP) pipeline: **text preprocessing**. It provides a practical implementation for cleaning raw text data and analyzing word frequency, both with and without common stop words. The notebook processes a sample of Edgar Allan Poe's poetry, showcasing how to transform raw text into a structured format suitable for analysis.
@@ -44,7 +44,7 @@ This project demonstrates the foundational step of any Natural Language Processi
 
 This clearly shows how removing stopwords shifts the focus from grammatical structure to the more meaningful, content-bearing words in the text.
 
-### [Sentiment Analysis](#sentiment-analysis)
+### Sentiment Analysis
 **File:** `Sentiment_Analysis.ipynb`  
 
 #### Description
@@ -101,27 +101,27 @@ A comprehensive sentiment analysis project that implements and compares multiple
 
 
 
-### [Rule & Retrieval-Based Chatbot](#rule--retrieval-based-chatbot)
+### Rule & Retrieval-Based Chatbot
 **File:** `Rule_and_Retrieval_Based_chatbot.ipynb`  
 Builds a simple chatbot that responds to user queries using pre-defined rules and by retrieving answers from a knowledge base.  
 **Concepts:** Rule-based systems, similarity matching, dialog systems.
 
-### [Named Entity Recognition](#named-entity-recognition)
+### Named Entity Recognition
 **File:** `Named_Entity_Recognition.ipynb`  
 Identifies and classifies named entities (e.g., persons, organizations, locations) in text.  
 **Concepts:** Sequence labeling, spaCy, information extraction.
 
-### [Dictionary-Based Machine Translation](#dictionary-based-machine-translation)
+### Dictionary-Based Machine Translation
 **File:** `dictionary_based_machine_translation.ipynb`  
 A basic translation system that translates words by performing a direct dictionary lookup. Highlights the challenges of naive translation.  
 **Concepts:** Lexical translation, challenges of MT (idioms, word sense).
 
-### [Character-Level Text Generation](#character-level-text-generation)
+### Character-Level Text Generation
 **File:** `Character_level_Text_Generation.ipynb`  
 Generates new text character-by-character using a Recurrent Neural Network (RNN) or LSTM model.  
 **Concepts:** RNNs/LSTMs, text generation, deep learning.
 
-### [Transformer-Based Machine Translation](#transformer-based-machine-translation)
+### Transformer-Based Machine Translation
 **File:** `Transformer_Based_Machine_Translation.ipynb`  
 Implements a state-of-the-art neural machine translation (NMT) system using the Transformer architecture.  
 **Concepts:** Transformer model, attention mechanism, seq2seq learning.

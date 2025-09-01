@@ -136,21 +136,47 @@ The chatbot is trained on 14 question-answer pairs covering:
 
 -----------
 
-
-
-
-
-
-
-
-
-
-
-
 ### Named Entity Recognition
 **File:** `Named_Entity_Recognition.ipynb`  
-Identifies and classifies named entities (e.g., persons, organizations, locations) in text.  
-**Concepts:** Sequence labeling, spaCy, information extraction.
+#### Description
+This project demonstrates Named Entity Recognition (NER) using two popular NLP libraries: **spaCy** and **NLTK**. NER is the task of identifying and classifying named entities in text into predefined categories such as persons, organizations, locations, dates, and monetary values. The notebook includes practical applications for financial news analysis and entity extraction.
+
+#### Key Features & Approaches
+
+**1. spaCy Implementation**
+- Uses `en_core_web_sm` model for high-quality entity recognition
+- Extracts entities with detailed labeling (ORG, DATE, GPE, MONEY, etc.)
+- Visualizes entities with color-coded highlighting using `displacy`
+- Includes specialized function for company/organization extraction
+
+**2. NLTK Implementation**
+- Uses `ne_chunk` with pre-trained models for entity recognition
+- Combines part-of-speech tagging with named entity recognition
+- Provides alternative approach to entity extraction
+- Demonstrates compatibility with traditional NLP workflows
+
+#### Entity Types Recognized
+The models identify various entity types including:
+- **ORG**: Organizations, companies, institutions
+- **PERSON**: People's names
+- **GPE**: Geopolitical entities (countries, cities, states)
+- **DATE**: Absolute or relative dates or periods
+- **MONEY**: Monetary values and currencies
+- **PRODUCT**: Objects, vehicles, foods, etc.
+
+#### Concepts & Skills
+- **Named Entity Recognition**: Identifying and classifying entities in text
+- **Statistical NLP**: Pre-trained models for entity detection
+- **Text Visualization**: Color-coded entity highlighting with displacy
+- **Library Comparison**: spaCy vs NLTK for NER tasks
+- **Information Extraction**: Specific entity type filtering (e.g., companies only)
+
+#### Applications
+- Financial Analysis: Extract company names from news articles
+- Content Categorization: Identify people, places, and organizations in documents
+- Information Retrieval: Enhance search with entity recognition
+- Data Mining: Extract structured information from unstructured text
+- News Monitoring: Track mentions of specific entities
 
 -----------
 ### Dictionary-Based Machine Translation

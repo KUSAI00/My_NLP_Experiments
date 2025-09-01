@@ -181,8 +181,25 @@ The models identify various entity types including:
 -----------
 ### Dictionary-Based Machine Translation
 **File:** `dictionary_based_machine_translation.ipynb`  
-A basic translation system that translates words by performing a direct dictionary lookup. Highlights the challenges of naive translation.  
-**Concepts:** Lexical translation, challenges of MT (idioms, word sense).
+
+#### Description
+This project implements a simple **dictionary-based machine translation system** that translates text from English to French using a predefined word-to-word dictionary. It serves as a foundational example of machine translation, demonstrating the basic principles of lexical substitution while highlighting the limitations of naive translation approaches.
+
+#### Key Features & Implementation
+
+**Core Components:**
+- **Bilingual Dictionary**: Predefined English-French word mappings (50+ entries)
+- **Word Translation**: Direct word-to-word lookup with case handling
+- **Sentence Translation**: Word-by-word translation of input sentences
+- **Interactive Mode**: Real-time translation interface
+- **Dynamic Dictionary**: Ability to add new translations during runtime
+
+#### Concepts & Skills
+- **Lexical Translation**: Word-level substitution approach
+- **Dictionary-Based Systems**: Foundation of early machine translation
+- **Text Processing**: Tokenization and word-by-word analysis
+- **Interactive Systems**: User-friendly translation interface
+- **Limitations of Naive MT**: Understanding translation challenges
 
 -----------
 ### Character-Level Text Generation

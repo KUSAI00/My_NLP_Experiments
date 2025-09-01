@@ -1,6 +1,6 @@
 # Natural Language Processing (NLP) Projects Portfolio
 
-A collection of hands-on projects covering fundamental to advanced Natural Language Processing techniques. This repository serves as a practical guide and portfolio for key NLP tasks, implemented from scratch and using modern libraries.
+A collection of hands-on fundamental projects in Natural Language Processing techniques. This repository serves as a practical guide and portfolio for key NLP tasks, implemented from scratch and using modern libraries.
 
 ## 📋 Table of Contents
 
@@ -11,18 +11,38 @@ A collection of hands-on projects covering fundamental to advanced Natural Langu
 - [Dictionary-Based Machine Translation](#dictionary-based-machine-translation)
 - [Character-Level Text Generation](#character-level-text-generation)
 - [Transformer-Based Machine Translation](#transformer-based-machine-translation)
-- [Technologies Used](#-technologies-used)
-- [How to Use](#-how-to-use)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
 
-## 📂 Projects
+## Projects
 
 ### [Text Cleaning & Frequency Counter](#text-cleaning--frequency-counter)
 **File:** `Text_cleaning_frequency_counter.ipynb`  
-Implements fundamental text preprocessing steps (cleaning, tokenization, normalization) and builds a frequency distribution analyzer for words in a corpus.  
-**Concepts:** Text preprocessing, regex, counting frequencies, data visualization.
+#### Description
+This project demonstrates the foundational step of any Natural Language Processing (NLP) pipeline: **text preprocessing**. It provides a practical implementation for cleaning raw text data and analyzing word frequency, both with and without common stop words. The notebook processes a sample of Edgar Allan Poe's poetry, showcasing how to transform raw text into a structured format suitable for analysis.
+
+#### Key Features & Functions
+- **`text_cleaner(text)`**: Cleans and tokenizes input text by:
+  - Removing all punctuation
+  - Converting to lowercase
+  - Tokenizing into individual words
+- **`word_frequency_counter(text, remove_stopwords)`**: 
+  - Counts word frequencies in cleaned text
+  - Optional removal of English stopwords using NLTK
+  - Returns a `Counter` object with word frequencies
+- **Sample Analysis**: Includes a `main()` function that demonstrates the entire workflow on poetic text.
+
+#### Concepts & Skills
+- **Text Preprocessing**: The essential first step in NLP
+- **Tokenization**: Breaking text into meaningful units using NLTK's `word_tokenize`
+- **Stop Words**: Understanding and filtering common words (the, and, is)
+- **Frequency Distribution**: Using `Collections.Counter` for textual analysis
+- **NLTK Library**: Practical use of NLTK for tokenization and stopword management
+
+#### Example Output
+**With Stopwords:** [('the', 4), ('there', 2), ('no', 2), ('was', 2), ('and', 2)]
+
+**Without Stopwords:** [('word', 2), ('deep', 1), ('darkness', 1), ('peering', 1), ('long', 1)]
+
+This clearly shows how removing stopwords shifts the focus from grammatical structure to the more meaningful, content-bearing words in the text.
 
 ### [Sentiment Analysis](#sentiment-analysis)
 **File:** `Sentiment_Analysis.ipynb`  

@@ -10,7 +10,6 @@ A collection of hands-on fundamental projects in Natural Language Processing tec
 - [Named Entity Recognition](#named-entity-recognition)
 - [Dictionary-Based Machine Translation](#dictionary-based-machine-translation)
 - [Character-Level Text Generation](#character-level-text-generation)
-- [Transformer-Based Machine Translation](#transformer-based-machine-translation)
 
 ## Projects
 
@@ -204,14 +203,39 @@ This project implements a simple **dictionary-based machine translation system**
 -----------
 ### Character-Level Text Generation
 **File:** `Character_level_Text_Generation.ipynb`  
-Generates new text character-by-character using a Recurrent Neural Network (RNN) or LSTM model.  
-**Concepts:** RNNs/LSTMs, text generation, deep learning.
+#### Description
+This project implements a **character-level text generation model** using a Recurrent Neural Network (RNN) with GRU layers. Trained on Shakespeare's complete works, the model learns to generate new text character by character, capturing the style, vocabulary, and structure of Elizabethan English. This demonstrates the power of neural networks in learning and reproducing complex linguistic patterns.
 
------------
-### Transformer-Based Machine Translation
-**File:** `Transformer_Based_Machine_Translation.ipynb`  
-Implements a state-of-the-art neural machine translation (NMT) system using the Transformer architecture.  
-**Concepts:** Transformer model, attention mechanism, seq2seq learning.
+#### Model Architecture & Features
+
+**Core Components:**
+- **GRU-based RNN**: Gated Recurrent Unit layers for sequence modeling
+- **Character-Level Processing**: Works at the character level (not words)
+- **Embedding Layer**: 256-dimensional character embeddings
+- **Vocabulary**: 66 unique characters including punctuation and symbols
+- **Temperature Sampling**: Controlled randomness for text generation
+
+**Technical Specifications:**
+- **Vocabulary Size**: 66 characters
+- **Embedding Dimension**: 256
+- **GRU Units**: 256
+- **Sequence Length**: 100 characters
+- **Batch Size**: 64
+- **Training Epochs**: 5
+
+#### Concepts & Skills
+- **Recurrent Neural Networks**: Understanding sequential data processing
+- **Character-Level Modeling**: Working with text at the character level
+- **Text Generation**: Autoregressive prediction of sequences
+- **Temperature Sampling**: Controlling creativity vs. accuracy
+- **TensorFlow/Keras**: Deep learning framework implementation
+- **Text Preprocessing**: Handling and preparing text data for NLP
+
+#### Training Details
+- **Dataset**: Complete works of Shakespeare (1,115,394 characters)
+- **Training Time**: ~45 seconds per epoch on standard hardware
+- **Final Loss**: 1.56 after 5 epochs
+- **Text Quality**: Coherent Shakespeare-style text with proper formatting
 
 -----------
 

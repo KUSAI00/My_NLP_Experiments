@@ -2,7 +2,7 @@
 
 A collection of hands-on fundamental projects in Natural Language Processing techniques. This repository serves as a practical guide and portfolio for key NLP tasks, implemented from scratch and using modern libraries.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Text Cleaning & Frequency Counter](#text-cleaning--frequency-counter)
 - [Sentiment Analysis](#sentiment-analysis)
